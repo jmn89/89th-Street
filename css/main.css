@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding-top: -5px;
+    background-color: #e2eeff;
+}
+h1 {
+  text-align: center;
+}
+
+/* navbar */
+#logo {
+  height: 15%;
+  width: 15%;
+}
+#navbarCenter > ul > li > a {
+  color: white;
+}
+#navbarCenter > ul > li:nth-child(3) > div > a {
+  color: white;
+}
+#navbarCenter > ul > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body > nav > a > img {
+  width: 20%;
+  height: 20%;
+}
+
+/* shop */
+ul.prodList {
+  margin: auto;
+  padding: 0 0 0 20px;
+}
+ul.prodList li {
+  float: left;
+  padding: 20px 0 20px 0;
+  list-style: none;
+  width: 24%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+ul.prodList li:last-child {
+  border-right: 1px solid black;
+}
+ul.prodList li div.product img {
+  width: 75px;
+  height: 75px;
+  padding-bottom: 10px;
+}
+#li-grid-last {
+  float: left;
+  padding: 20px 0 20px 0;
+  list-style: none;
+  width: 24%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#li-grid-top {
+  float: left;
+  padding: 20px 0 20px 0;
+  list-style: none;
+  width: 24%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+#li-grid-topright {
+  float: left;
+  padding: 20px 0 20px 0;
+  list-style: none;
+  width: 24%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+/* Product Detail */
+body > ul.prodListDetailed > li > div > form > p > img {
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+body > div {
+  text-align: center;
+}
+body > ul.prodListDetailed > li > div > form > p.ting {
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+body > ul.prodListDetailed {
+  margin: 0 0 200px 0;
+  list-style: none;
+}
+
+/* my_account */
+#pastPurchasesImg {
+  width: 75px;
+  height: 75px;
+  padding-bottom: 10px;
+}
+
+/* Reviews */
+body > div.reviewsAdd > form > div > label > div > p > i {
+  font-size: 30px;
+}
+body > div.reviewsAdd > form > input[type="radio"] {
+  text-align: left;
+}
+
+/* cards */
+/* centre all cards */
+.card {
+  margin: 0 auto;
+}
+.card-title {
+  color: black;
+}
+
+#josh-blue-card > div > div.card-body {
+  background-color: #c6d5ff;
+}
+
+#bluecard-text {
+  color: black;
+}
+#josh-blue-card > div > div.card-body > p > img {
+  width: 25%;
+  height: 25%;
+}
+#josh-blue-card > div > div.card-body > form > div > div {
+  margin: 0 auto;
+}
+
+#josh-green-card > div > div.card-body {
+  background-color: #a0d6a0;
+}
+#josh-green-card > div > div.card-body > form > div > div > label {
+  color: black;
+}
+
+#josh-red-card > div > div.card-body > h5 {
+  color: white;
+}
+
+/* slideshow */
+#slideshowItem1, #slideshowItem2 {
+  background-color: #e2eeff;
+}
+
+/* footer */
+.fab {
+  padding-right: 10px;
+}
+.fa {
+  float: right;
+}
